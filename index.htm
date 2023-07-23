@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam Bhilarkar</title>
+    <link rel="icon" href="./Images/boy.png" type="image/png" />
+    <link rel="stylesheet" href="index.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body data-bs-theme="light">
+    <!-- navigation bar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#home_div">Home</a>
+            <a class="nav-link active" href="#experience_div">Experience</a>
+            <a class="nav-link active" href="#skills_heading">Skills</a>
+            <a class="nav-link active" href="#project_heading">Project</a>
+            <a class="nav-link active" href="#footer_heading">Contacts</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-check form-switch mx-4">
+        <input
+          id="navbar_theme_toggle"
+          class="form-check-input p-2"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckChecked"
+          onclick="myFunction()"
+        />
+      </div>
+    </nav>
+
+    <!----------------------------home div  -->
+    <br /><br />
+    <div id="home_div">
+      <img src="./Images/humanweb.png" alt="" />
+      <h1>I'm Shivam Bhilarkar</h1>
+      <h2 id="home_h2">
+        Love spending time on fixing and optimizing code. Also interested in new
+        technologies and video games .
+      </h2>
+      <h2>👨🏻‍💻</h2>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- ----------------------- experience section ----------- -->
+
+    <h1 id="experience_div">Work Experience 🏢</h1>
+    <div class="container">
+      <hr />
+    </div>
+    <br />
+    <div class="container">
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Celeritio Software Pvt. Ltd. Pune</h4>
+              <h5>Jr. Technologiest / Java Developer</h5>
+            </div>
+            <div class="timeline-body">
+              <h6>Responsible for development of Backend Server.</h6>
+
+              <ul style="padding: 0 40px">
+                <li>
+                  Worked on web application managing infrastructure as Code in
+                  Java, Back-end Services, SQL queries and Manual Testing of
+                  Application
+                </li>
+                <li>
+                  Worked on enabling multi-tenancy in project for Spring – key
+                  cloak framework.
+                </li>
+                <li>
+                  Created a scheduler as microservice for Server which is
+                  responsible to perform Update and Delete Operation to Perform
+                  in multithreaded Environment
+                </li>
+                <li>
+                  Worked on creating REST API's and Optimised performance upto
+                  60% on server side.
+                </li>
+                <li>Implmented payment integration service on server side.</li>
+              </ul>
+            </div>
+            <div class="timeline-footer">
+              <p class="text-right">Sept 2023 - Present</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-badge"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Kinetix Trading Solutions</h4>
+              <h5>Java Developer</h5>
+            </div>
+            <div class="timeline-body">
+              <ul style="padding: 0 40px">
+                <li>
+                  Worked on legacy code base to improve code coverage, wrote
+                  Junit tests and fixed solnar lint issues.
+                </li>
+                <li>
+                  Wrote script which can be used to fetch latest code push on
+                  Bitbucket.
+                </li>
+                <li>
+                  Worked on creating ML environment on Azure ML studio and
+                  created it's poc.
+                </li>
+                <li>
+                  Worked on improving functionalities in internal developers
+                  tool.
+                </li>
+              </ul>
+            </div>
+            <div class="timeline-footer">
+              <p class="text-right">Feb 2023 - Present</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="clearfix no-float"></li>
+      </ul>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <!----------------- skills ----------------------->
+    <h1 id="skills_heading">Technical Skills ⚙️</h1>
+    <div class="container">
+      <hr />
+    </div>
+    <div id="skills_div" class="container">
+      <div class="container">
+        <div class="single_skill_card">
+          <img src="./Images/java.png" alt="" />
+          <label for="">Java</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/python.png" alt="" />
+          <label for="">Python</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/spring.png" alt="" />
+          <label for="">Spring</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/postgre.png" alt="" />
+          <label for="">Postgres</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/docker.png" alt="" />
+          <label for="">Docker</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/gradle.png" alt="" />
+          <label for="">Gradle</label>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="single_skill_card">
+          <img src="./Images/html5.png" alt="" />
+          <label for="">HTML</label>
+        </div>
+        <div class="single_skill_card">
+          <img src="./Images/css.png" alt="" />
+          <label for="">CSS</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/javascirpt4.png" alt="" />
+          <label for="">JavaScript</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/Reactjs.png" alt="" />
+          <label for="">React js</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/android.png" alt="" />
+          <label for="">Android</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/groovy.png" alt="" />
+          <label for="">Groovy</label>
+        </div>
+        <div class="single_skill_card">
+          <img src="./Images/junit.png" alt="" />
+          <label for="">Junit</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/git.png" alt="" />
+          <label for="">Git</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/mongodb.png" alt="" />
+          <label for="">Mongo DB</label>
+        </div>
+
+        <div class="single_skill_card">
+          <img src="./Images/adobexd.png" alt="" />
+          <label for="">AdobeXD</label>
+        </div>
+      </div>
+    </div>
+
+    <!------------ coding profiles  ---------------->
+    <br />
+
+    <div class="profiles_container">
+      <div class="single_profile">
+        <a href="https://leetcode.com/JasonBroady/">
+          <h2>🔗 LeetCode</h2>
+        </a>
+        <img src="./Images/leetcodenew.png" alt="" />
+      </div>
+
+      <div class="single_profile">
+        <a href="https://www.hackerrank.com/shivambhilarkar">
+          <h2>🔗 HackerRank</h2>
+        </a>
+        <img src="./Images/hackerrank.png" alt="" />
+      </div>
+    </div>
+
+    <!---------------- project ----------------->
+    <br />
+    <br /><br />
+    <h1 id="project_heading">Personal Projects 🏗️</h1>
+    <div class="container">
+      <hr />
+    </div>
+    <div class="container">
+      <br />
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              <h6>o Video Streaming Application</h6>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                o An Android Application for users to upload Vlogs and showcase
+                along with text and information support.
+                <br />
+                o Used Firebase for backend to handle queries and requests to
+                fetch or update the data. <br />
+                o Introduce Functionalities to like post , Comment on post ,
+                Share link of video. <br />
+                o Implemented Report functionality to detect false information
+                uploaded by another users. <br />
+                o Followed Material UI style to design the Android App. <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <h6>o Fitness Application</h6>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                o An android application to calculate the users body mass index
+                and according to that it will analyse what type of Diet and
+                exercise user should follow to stay fit.<br />
+                o If user is overweight, then its displays weight loss exercises
+                and weight loss diet vice versa.<br />
+                o Followed Soft UI style to design the android app.<br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <h6>o Web Projects</h6>
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                ▪ Using React js framework I've created website for pet shop &
+                strawberry farm.
+                <br />
+                ▪ I've created dashboard where information regarding every pet
+                is displayed. <br />
+                ▪ Created dashboard for varoius fruits available in mahableshwer
+                & there prices. <br />
+                ▪ Using Node js framework I've created dictionary webpage where
+                we can query a word. It will tells the meaning of that word,
+                defination of that thing , uses of in real life, & also shows
+                the images of that thing if available.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <!---------------------- footer ---------------->
+    <h1 id="footer_heading"></h1>
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <p class="col-md-4 mb-0 text-body-secondary">
+        . © 2023 Shivam Bhilarkar, Inc
+      </p>
+
+      <a
+        href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+      >
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="https://github.com/shivambhilarkar" class="nav-link px-2"
+            >Github</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://www.linkedin.com/in/shivam-bhilarkar/"
+            class="nav-link px-2"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="https://shivambhilarkar@gmail.com" class="nav-link px-2"
+            >Email</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="https://leetcode.com/JasonBroady/" class="nav-link px-2"
+            >LeetCode</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://www.hackerrank.com/shivambhilarkar"
+            class="nav-link px-2"
+            >HackerRank</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <!-- js script -->
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.dataset.bsTheme =
+          element.dataset.bsTheme == "light" ? "dark" : "light";
+      }
+      function stepFunction(event) {
+        debugger;
+        var element = document.getElementsByClassName("collapse");
+        for (var i = 0; i < element.length; i++) {
+          if (element[i] !== event.target.ariaControls) {
+            element[i].classList.remove("show");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
