@@ -409,3 +409,37 @@ p.footer {
     left: 28px;
   }
 }
+
+
+/* extra theme */
+/* [data-bs-theme="blue"] {
+  --bs-body-color: var(--bs-white);
+  --bs-body-color-rgb: #{to-rgb($white)};
+  --bs-body-bg: var(--bs-blue);
+  --bs-body-bg-rgb: #{to-rgb($blue)};
+  --bs-tertiary-bg: #{$blue-600};
+} */
+
+#footer_profiles{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+#footer_profiles img{
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  margin-right: 10px;
+  transition: 0.5s;
+  /* background-color: gray; */
+}
+
+#footer_profiles img:hover{
+  /* box-shadow: 2px 2px 10px gray; */
+  -webkit-filter: drop-shadow(5px 5px 5px gray);
+  filter: drop-shadow(5px 5px 5px gray);
+}
